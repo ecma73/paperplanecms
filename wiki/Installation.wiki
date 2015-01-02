@@ -1,0 +1,39 @@
+#summary One-sentence summary of this page.
+#labels Phase-Deploy
+
+= Installation =
+
+Installation Requirements
+To install gpEasy on your own server, make sure it meets these minimum requirements
+
+PHP 5.2+
+PHP Safe Mode Off
+You'll also need a modern browser. Recent releases of FireFox, Google Chrome and Internet Explorer all work.
+
+= Details =
+
+Step by Step Instructions
+Downloaded the latest version of ppCMS and unzip the contents to your local computer.
+Upload all the the unzipped contents to a folder on your server. You may upload to your root folder, subfolder or subdirectory.
+Using your web browser, navigate to the folder you just uploaded the unzipped contents to.
+Your browser should now be displaying the ppCMS installation page. Look over this page and make sure all of the checks have passed.
+Typically, you'll need to change the permissions of the /data directory so that ppCMS can write to it. The installation page will indicate if this is necessary.
+After you make any adjustments to the server, reload the installation page in your browser.
+If all of the checks have passed, you'll be shown a form for your username, password, etc. Fill out all of the fields and click the "Install" button.
+And you're done! If nothing out of the ordinary has occurred, ppCMS should now be installed. Take a look at the User Guide if you need ideas for what to do next.
+
+ 
+Instructions Specific to Different Types of Servers
+Installation on XAMPP Lite
+Installation on lighttpd
+ 
+
+Troubleshooting
+ 
+
+Page cannot be found
+
+Page requests for ppCMS are handled one of two ways: Using PathInfo or URL Rewriting. The "Page cannot be found" message will be displayed by Apache if neither of these options are available. Unfortunately, if you don't have admin privileges on the server, neither of these options can be changed. Otherwise:
+
+Enable PathInfo (apache.org)
+Enabling mod_rewrite is somewhat OS specific. A online search for "mod_rewrite Ubuntu" or "mod_rewrite CentOS" will give OS specific instructions.
