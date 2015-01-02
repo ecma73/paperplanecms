@@ -4,7 +4,7 @@
 = Installation =
 
 Installation Requirements
-To install gpEasy on your own server, make sure it meets these minimum requirements
+To install ppCMS on your own server, make sure it meets these minimum requirements
 
 PHP 5.2+
 PHP Safe Mode Off
