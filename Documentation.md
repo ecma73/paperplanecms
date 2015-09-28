@@ -1,0 +1,3 @@
+# Introduction #
+
+ppCMS was designed to be an easy to use, but lightweight and fully functional content management system (cms). You can see the results of our design approach from the fast and simple installation that doesn't require a database to the integrated admin interface that allows users to instantly see page edits and configuration changes in one window. To Download ppCMS, visit http://sourceforge.net/projects/ppcmszip/
